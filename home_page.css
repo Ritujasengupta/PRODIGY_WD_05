@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: #141414;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+}
+
+.banner {
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.movie-posters {
+    margin-top: 2rem;
+}
+
+.movie-posters h2 {
+    margin-bottom: 1rem;
+}
+
+.poster-container {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+}
+
+.poster {
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.poster img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #141414;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
